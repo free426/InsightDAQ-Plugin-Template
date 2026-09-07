@@ -19,7 +19,7 @@ jobs:
 
       - name: Download SDK
         run: |
-          curl -L -o sdk.zip https://github.com/InsightDAQ/InsightDAQ/releases/download/sdk-v1.0.0/daq-plugin-sdk-v1.0.0.zip
+          curl -L -o sdk.zip https://github.com/free426/InsightDAQ-SDK/releases/download/sdk-v1.0.0/daq-plugin-sdk-v1.0.0.zip
           Expand-Archive sdk.zip -DestinationPath sdk
 
       - name: Configure
