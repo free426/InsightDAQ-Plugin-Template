@@ -4,11 +4,6 @@ project(MyPlugin LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_AUTOMOC ON)
 
-# MSVC 需要此参数让 Qt 正确识别 C++17
-if(MSVC)
-    add_compile_options(/Zc:__cplusplus)
-endif()
-
 # SDK 路径（GitHub Actions 中由 -DDAQ_SDK_DIR 传入）
 set(DAQ_SDK_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../sdk" CACHE PATH "DAQ SDK 路径")
 
