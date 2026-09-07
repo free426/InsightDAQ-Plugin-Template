@@ -1,7 +1,7 @@
 **云编译步骤**
 
 1.创建仓库：打开模板仓库（https://github.com/free426/InsightDAQ-Plugin-Template
-）→ 点 "Use this template" → 填仓库名 → 创建
+）→ 点 "Use this template" → 填仓库名 → 创建 
 
 2.改代码：在线编辑 src/MyPlugin.cpp（算法）和 node.json（名称、参数）→ 提交
 
