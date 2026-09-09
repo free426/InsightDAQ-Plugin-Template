@@ -14,6 +14,7 @@
 
 
 **编译插件**
+
 第一步：创建插件仓库
 打开https://github.com/free426/InsightDAQ-Plugin-Template
 在 GitHub 上点击 "Use this template"，基于模板仓库一键创建自己的项目：
@@ -29,6 +30,7 @@ GitHub 自动生成新仓库：my-peak-detector-plugin
 └── CMakeLists.txt                 ← 基本不用改
 
 第二步：修改代码
+
 在线编辑或 clone 到本地，只改 MyPlugin.cpp 和 node.json。
 
 第三步：Push
@@ -41,6 +43,7 @@ git push
 push 后 Actions 自动触发：
 
 GitHub Actions 启动
+ 
   → 下载 SDK（从主程序 Release）
   → cmake + make 编译
   → 产出：libpeak_detector.dll + node.json
@@ -310,5 +313,7 @@ type 可选值:
 **测试插件**
 
 连线：DAT回放-->测试组件
+
 选择dat回放的源文件夹（复制）和目标文件夹（粘贴）；
-运行数据流
+
+运行数据流；
